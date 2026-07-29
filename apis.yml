@@ -1,7 +1,28 @@
 aid: irisai
 name: Iris.ai
-description: Iris.ai is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Iris.ai is a Norwegian AI company providing an AI knowledge foundation for
+  regulated enterprises, turning complex enterprise and scientific data into
+  trustworthy, compliant AI. Its platform spans three products — Axion (data
+  organization for AI-ready intelligence), Neuralith (enterprise knowledge
+  integration into AI engines), and RSpace, the Researcher Workspace that lets
+  R&D teams, librarians, and academics search, filter, analyze, extract,
+  summarize, and report across scientific literature. Iris.ai is backed by 500
+  Global. The company does not currently publish a public developer API, SDKs,
+  or a developer portal; this profile captures its public identity and
+  domain-security posture pending any future developer surface.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://corporate-cdn.iris.ai/iris-open-graph-cover-1200x626.png
 url: https://raw.githubusercontent.com/api-evangelist/irisai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Artificial Intelligence
+- Machine Learning
+- Research
+- Knowledge Management
+- Enterprise
+- Data
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,20 @@ maintainers:
 common:
 - type: Website
   url: https://iris.ai
+- type: Blog
+  url: https://iris.ai/blog
+- type: Support
+  url: https://iris.ai/help-center/
+- type: HelpCenter
+  url: https://iris.ai/help-center/
+- type: TermsOfService
+  url: https://iris.ai/terms-of-service
+- type: PrivacyPolicy
+  url: https://iris.ai/privacy-policy
+- type: DomainSecurity
+  url: security/irisai-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

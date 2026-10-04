@@ -47,9 +47,9 @@ modified: '2026-07-19'
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Research
-- Knowledge-Management
+- Knowledge Management
 - Enterprise
 - Data
 tags_raw:
@@ -60,6 +60,8 @@ tags_raw:
 - Knowledge Management
 - Enterprise
 - Data
+- Machine-Learning
+- Knowledge-Management
 apis: []
 maintainers:
 - FN: Kin Lane
